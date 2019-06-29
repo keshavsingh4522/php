@@ -14,3 +14,7 @@ myTest();
 myTest();
 myTest();
 ?>
+/*
+output:
+012
+*/
