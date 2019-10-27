@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UT-4</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">     
+    <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<style type="text/css">
+		
+		.ui-icon-phone:after
+		{
+			background-image: url('http://static.wixstatic.com/media/8d13be_b8134403c9604580b448bd9b5c72d65e~mv2.gif');
+			background-size: cover;
+			background-repeat:no-repeat;
+			/*background-color: green;*/
+		}
+		.ui-icon-mail:after
+		{
+			background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/52/Mail_iOS.svg');
+			background-size: cover;
+			background-repeat:no-repeat;
+		}
+		.ui-icon-whatsapp:after
+		{
+			background-image: url('http://stagewp.sharethis.com/wp-content/uploads/2017/05/WhatsApp.png');
+			background-size: cover;
+			background-repeat:no-repeat;
+		}
+		.keshav
+		{
+			background-color: inherit;
+			color: #5F5F5F;
+			height: 50px;
+			width: 50px;
+			border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+<div data-role="page">
+	<div data-role="header" style="background-color: #5F5F5F;color: white;text-align: center;">
+		<h1>keshav singh</h1>
+	</div>
+	<div  data-role="main" class="ui-content">
+		<h2 style="text-align: center;">CHAPTER----4</h2>
+		<a class="ui-btn ui-btn-inline" target="_blank" href="https://www.javatpoint.com/os-file-system">File System</a>
+	</div>
+	<div data-role="footer" data-position="fixed" style="background-color: #5F5F5F;text-align:center;">
+		<a href="tel:+919982761929" class="ui-btn ui-btn-inline ui-icon-phone ui-btn-icon-notext keshav"></a>
+		<a href="mailto:keshavsingh4522@gmail.com" class="ui-btn ui-btn-inline ui-icon-mail ui-btn-icon-notext keshav"></a>
+		<a class="ui-btn ui-btn-inline ui-icon-whatsapp ui-btn-icon-notext keshav wpp"></a>
+	</div>
+</div>
+<script>
+if(window.screen.width>520)
+	{
+		document.querySelector('.wpp').href='https://web.whatsapp.com/send?text=made by Keshav Singh call me on  919982761929 if any query.further more query please visit my personal website bit.ly/keshav_02" data-action="share/whatsapp/share';
+	}
+else
+	{
+		document.querySelector('.wpp').href='whatsapp://send?text=made by Keshav Singh call me on  919982761929 if any query.further more query please visit my personal website bit.ly/keshav_02'
+	}
+</script>
+</body>
+</html>
