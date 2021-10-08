@@ -1,3 +1,3 @@
 <?php
-echo "pkkkkkkkk";
-?>
+
+echo "Welcome message (included)";
